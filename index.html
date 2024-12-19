@@ -1,31 +1,90 @@
-<DOCTYPE! html>
+<!DOCTYPE html>
+<html lang="en">
 
-<html>
-
-    <head>
-
-        <title>Q&C Tutoring Services</title>
-        <script src="js/script.js"></script>
-    </head>
-
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Bio</title>
     <style>
-        .title
-        {
-            text-align:center;
+        body {
+            background-color: #f2f2f2;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
         }
 
-         <style>
-        body{
-           background-color: rgb(83, 202, 252);
-            }
-        </style>
-    </style>
-    
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            text-align: center;
+            padding: 20px;
+        }
 
-    <body>
-        <div class="title">
-            <p style="color:black; font-family:'Comic Sans MS'; font-size: 50px ">Welcome to my lovely website.</p>
+        .header {
+            background-color: #53cafc;
+            padding: 20px 0;
+        }
+
+        .header h1 {
+            color: white;
+            margin: 0;
+        }
+
+        .bio {
+            margin: 20px 0;
+        }
+
+        .bio img {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+        }
+
+        .social-links a {
+            margin: 10px;
+            text-decoration: none;
+            color: #53cafc;
+            font-size: 20px;
+        }
+
+        .social-links a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            margin-top: 30px;
+            padding: 10px 0;
+            background-color: #53cafc;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <h1>Welcome to My Bio!</h1>
+    </div>
+
+    <div class="container">
+        <div class="bio">
+            <img src="your-photo.jpg" alt="Your Photo">
+            <h2>Your Name</h2>
+            <p>
+                Hi there! I'm [Your Name], a [short description about yourself, e.g., "college student passionate about computer science and tennis"]. I love exploring new ideas, connecting with people, and sharing my journey.
+            </p>
         </div>
-    </body>
+
+        <div class="social-links">
+            <h3>Connect with me:</h3>
+            <a href="https://twitter.com/yourprofile" target="_blank">Twitter</a>
+            <a href="https://linkedin.com/in/yourprofile" target="_blank">LinkedIn</a>
+            <a href="https://github.com/yourprofile" target="_blank">GitHub</a>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Your Name. All Rights Reserved.</p>
+    </footer>
+</body>
 
 </html>
